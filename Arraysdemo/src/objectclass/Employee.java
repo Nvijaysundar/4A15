@@ -1,5 +1,4 @@
-package p1;
-
+package objectclass;
 class Employee {
 	String Name,Desg;
 	float bsal;
@@ -9,7 +8,7 @@ class Employee {
 		this.Desg = Desg;
 		this.bsal = bsal;
 	}
-	void getData()
+	public void getData()
 	{
 		System.out.println("Name: "+Name);
 		System.out.println("Desg: "+Desg);
